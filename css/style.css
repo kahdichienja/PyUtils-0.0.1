@@ -1,0 +1,7 @@
+.card-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: red !important;
+    color: red;
+}

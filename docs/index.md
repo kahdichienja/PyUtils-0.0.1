@@ -1,6 +1,5 @@
-
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+``` python
+class Utils():
+  n = 0
+  def __init__(self, *args, **kwargs):
+    super(Utils, self).__init__(*args, **kwargs)

@@ -1,0 +1,15 @@
+{
+  "name": "pyutils",
+  "version": "0.0.1",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "homepage": "https://kahdichienja.github.io/PyUtils-0.0.1/",
+  "scripts": {
+    "deploy": "gh-pages -d docs"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

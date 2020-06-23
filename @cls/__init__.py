@@ -31,6 +31,9 @@ class Utils():
         import string
         no_punct = s.translate(str.maketrans('', '', string.punctuation))
         return no_punct
+
+    def __str__(self):
+        return super().__str__()
     
     
 

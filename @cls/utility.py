@@ -37,10 +37,3 @@ class Utils():
     
     
 
-assert Utils.remove_dollar_white_space(",12") == 12.0
-assert Utils.remove_dollar_white_space("$123") == 123.0
-assert Utils.remove_comma_and_spaces(" , ,1234") == 1234.0
-my_str = "Hello!!!, he said ---and went."
-assert Utils.remove_punctuation(my_str) == "Hello he said and went"
-
-print('Assertion Test Complete')
